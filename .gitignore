@@ -1,1 +1,14 @@
 bridge/
+# MT5 compiled files — never commit these
+MQL5/**/*.ex5
+
+# MT5 tester cache
+Tester/
+*.tst
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Backtest result exports if they get large
+Backtests/**/*.csv
